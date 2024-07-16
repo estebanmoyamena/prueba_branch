@@ -1,0 +1,59 @@
+
+:root, [data-bs-theme=light] {
+
+    --bs-gray-dark:#373a3c o var(--gray-dark);
+    --light-dark: #dddddd o var(--light-dark);
+    --bs-black:#000 o var(--black);
+    --bs-white: #fff o var(--white);
+    --bs-danger: #dc3545 o var(--danger);
+
+}
+
+.lobster-regular-nav {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+    color: white;
+    align-content: center;
+    
+}
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.cabin-regular {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+.cabin-bold {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+header {
+    background-color: var(--bs-gray-dark);
+}
+.container-fluid {
+    
+}
+
+.navbar-brand {
+    color: white;
+    
+}
+.navbar-nav .nav-link {
+    color:white;
+    margin: 0;
+    --bs-navbar-padding-y: 1rem --bs-navbar-padding-x:1rem;
+}
+
